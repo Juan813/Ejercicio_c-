@@ -1,0 +1,17 @@
+
+Errores sintácticos:
+1 - entRandom no se le indica un tipo, parece que queremos que sea entero
+SOLUCIÓN: int entRandom = 5;
+
+2 - En el predicado lógico / condición del if estamos comparando enteros con string, eso es un error.
+SOLUCIÓN: comparar con enteros como por ejemplo if(entRandom == 5)
+
+3 - Fallo de flujo, falta una llave de abrir el IF. Con un solo comando / instrucción no hacen falta las llaves, pero si ponemos una de cierre tiene que haber una de abrir también.
+
+
+Errores semánticos (en ejecución):
+
+1 - La posición de índice 5 no existe, todos los índices empiezan en 0.
+
+Errores funcionales:
+En un fragmento de código tan pequeño y sin pruebas en ejecución es díficil predecir estos errores, no parece haber ninguno.

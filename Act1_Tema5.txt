@@ -1,0 +1,13 @@
+El código representa un método con un parámetro de entrada tipo objeto.
+
+Parece ser parte de un juego y el método aplica un efecto o habilidad llamado "Rabia"
+
+Si el parámetro de entrada que se puede entender que es quien recibe el efecto "Rage" es DISTINTO del jugador / usuario, entonces:
+
+Se comprueban los puntos de vida del objeto de entrada.
+
+Si estos son menores o iguales a 30, el efecto producido es que se cuadriplica el valor de ataque del objeto que recibe el efecto RAGE.
+
+Si no, el efecto RAGE solamente recupera al objeto de entrada 50 puntos de vida.
+
+SI el objeto al que se le aplica el efecto es el del usuario / jugador, entonces NO ocurre nada.
